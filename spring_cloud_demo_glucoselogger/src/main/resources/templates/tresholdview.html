@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<title>Glucose Logger</title>
+</head>
+<body>
+<h1 th:text="${appname}"></h1>
+<p th:text="'Never go lower than '+${low}+' mmol/l.'"></p>
+<p th:text="'Never go above than '+${mid}+' mmol/l.'"></p>
+<p th:text="'Acid ketocis risk is increased of above '+${max}+' mmol/l.'"></p>
+</body>
+</html>
